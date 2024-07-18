@@ -1,0 +1,22 @@
+#info {
+	float: right;
+}
+#info img {
+	max-width: 200px;
+}
+#info ul {
+	list-style-type: none;
+	margin-top: 1rem;
+}
+@media (max-width: 640px) {
+	#info {
+		float: none;
+	}
+	#info img {
+		max-width: unset;
+		width: 100%;
+	}
+	section:not(:first-child) {
+		margin-top: 1rem;
+	}
+}

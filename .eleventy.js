@@ -8,10 +8,11 @@ const dataFromCMS = (query) =>
 		.then((json) => json.data)
 
 module.exports = function (config) {
-	config.addPassthroughCopy('images')
+	config.addPassthroughCopy('src/images')
 	config.addPassthroughCopy('src/styles')
 	config.addPassthroughCopy('src/site.webmanifest')
 	config.addPassthroughCopy('src/favicon.ico')
+	config.addPassthroughCopy('src/*.png')
 
 	// config.addGlobalData(
 	//   "cms",

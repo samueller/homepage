@@ -2,4 +2,10 @@
 	color: slategray;
 	text-decoration: underline;
 	font-style: normal;
+	vertical-align: unset;
+}
+@media (max-width: 640px) {
+	#favicon {
+		display: none;
+	}
 }
