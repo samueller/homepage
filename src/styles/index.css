@@ -20,3 +20,9 @@
 		margin-top: 1rem;
 	}
 }
+main.responsive {
+	max-width: 50rem;
+}
+#info {
+	padding: 0 0 1rem 1rem;
+}
