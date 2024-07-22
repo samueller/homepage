@@ -1,0 +1,57 @@
+[
+	{
+		"title": "Causes of effects: Learning individual responses from population data",
+		"authors": [
+			{
+				"name": "Scott Mueller",
+				"school": "UCLA",
+				"url": "https://scott.am"
+			},
+			{
+				"name": "Ang Li",
+				"school": "UCLA",
+				"url": "https://www.causalds.org/"
+			},
+			{
+				"name": "Judea Pearl",
+				"school": "UCLA",
+				"url": "https://bayes.cs.ucla.edu/jp_home.html"
+			}
+		],
+		"publication": {
+			"name": "Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence Main Track",
+			"url": "https://www.ijcai.org/proceedings/2022/376",
+			"doi": "10.24963/ijcai.2022/376"
+		},
+		"date": "May 2022",
+		"url": "https://ftp.cs.ucla.edu/pub/stat_ser/r505-reprint.pdf",
+		"abstract": "The problem of individualization is crucial in almost every feld of science. Identifying causes of specifc observed events is likewise essential for accurate decision making as well as explanation. However, such tasks invoke counterfactual relationships, and are therefore indeterminable from population data. For example, the probability of benefting from a treatment concerns an individual having a favorable outcome if treated _and_ an unfavorable outcome if untreated; it cannot be estimated from experimental data, even when conditioned on fine-grained features, because we cannot test both possibilities for an individual. Tian and Pearl provided bounds on this and other probabilities of causation using a combination of experimental and observational data. Those bounds, though tight, can be narrowed signifcantly when structural information is available in the form of a causal model. This added information may provide the power to solve central problems, such as explainable AI, legal responsibility, and personalized medicine, all of which demand counterfactual logic. This paper derives, analyzes, and characterizes these new bounds, and illustrates some of their practical applications.",
+		"conference": {
+			"name": "International Joint Conference on Artificial Intelligence (IJCAI)",
+			"url": "https://www.ijcai.org/"
+		},
+		"supplemental": "https://ftp.cs.ucla.edu/pub/stat_ser/r505-sup.pdf",
+		"revisions": [
+			{
+				"date": "January 2024",
+				"url": "https://ftp.cs.ucla.edu/pub/stat_ser/r505-Alg.pdf"
+			}
+		]
+	},
+	{
+		"title": "Estimating Individualized Causes of Effects by Leveraging Population Data",
+		"authors": [
+			{
+				"name": "Scott Mueller",
+				"school": "UCLA",
+				"url": "https://scott.am"
+			}
+		],
+		"publication": {
+			"name": "Master's Thesis"
+		},
+		"date": "June 2021",
+		"url": "https://ftp.cs.ucla.edu/pub/stat_ser/r506.pdf",
+		"abstract": "Most analyses in the past three decades concerned estimating effects of causes (EoC). Less emphasis has been placed on identifying causes of effects (CoE), despite their critical importance in science, medicine, public policy, legal reasoning, AI, and epidemiology. For example, personalized medicine concerns the probability of a drug being the cause of survival: resulting in a favorable outcome if taken and unfavorable if avoided. One reason for this imbalance is that tools for estimating the probability of causation from data require counterfactual logic. Bounds on these probabilities are often too loose to be informative and the assumptions necessary for point estimates are often too strong to be defensible. The objective of this thesis is to develop and test techniques for achieving narrower bounds on the probabilities of causation, with minimal assumptions. These more accurate estimates are achieved by incorporating a causal model and covariate data."
+	}
+]

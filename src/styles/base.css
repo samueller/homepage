@@ -88,3 +88,12 @@
 		display: none;
 	}
 }
+.show-more-btn {
+	padding: 0.1rem 0.3rem;
+	block-size: unset;
+	font-weight: unset;
+	vertical-align: unset;
+}
+.title {
+	font-weight: bold;
+}

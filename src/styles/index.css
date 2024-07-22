@@ -26,3 +26,17 @@ main.responsive {
 #info {
 	padding: 0 0 1rem 1rem;
 }
+#papers ol {
+	list-style-type: none;
+}
+#papers li {
+	margin: 1rem 0.25rem;
+	padding: 0rem 0.25rem;
+	background-color: var(--surface-variant);
+}
+#papers h6 {
+	margin-top: 0.5rem;
+}
+#papers p.title {
+	margin-top: 0;
+}

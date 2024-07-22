@@ -26,8 +26,32 @@ styles:
 	<p>My research focuses on personalized decision making with counterfactual reasoning. We are born with innate cause and effect instincts, experimenting with the world causally even as infants. However, we seldom develop counterfactual reasoning skills, which can severely impact our decision-making abilities. I believe that incorporating this capability into machine learning algorithms will allow us to achieve superhuman-level reasoning.</p>
 	<p>Previously, I founded <a class="link" href="https://ucode.com">UCode</a>, an initiative to teach computer science to kids and teenagers. After seven years of improving my understanding of teaching advanced concepts to young students, I sought to comprehend intelligence at a fundamental level. I believe that causality is essential to intelligence, reasoning, decision-making, and ultimately, the realization of AGI.</p>
 </section>
-<section id="publications">
-	<h6>Rest of page coming soon</h6>
+<section id="papers">
+	<h5>Papers</h5>
+	<ol>
+		{% for paper in papers %}
+		<li>
+			<p class="date">{{paper.date}}</p>
+			<h6><a class="link" href="{{paper.url}}">{{paper.title}}</a></h6>
+			{% if paper.publication %}
+			{% if paper.publication.url %}
+			<a class="title link" href="{{paper.publication.url}}">{{paper.publication.name}}</a>
+			{% else %}
+			<p class="title">{{paper.publication.name}}</p>
+			{% endif %}
+			{% endif %}
+			<p class="abstract preview">{{paper.abstract}}</p>
+		</li>
+		{% endfor %}
+	</ol>
 </section>
-<section id="teaching"></section>
-<section id="cv"></section>
+<section><h6>Rest of page coming soon</h6><hr></section>
+<section id="teaching">
+	<h5>Teaching</h5>
+</section>
+<section id="talks">
+	<h5>Talks/Interviews</h5>
+</section>
+<section id="cv">
+	<h5>CV</h5>
+</section>
