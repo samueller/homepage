@@ -31,7 +31,7 @@ main.responsive {
 }
 #papers li {
 	margin: 1rem 0.25rem;
-	padding: 0rem 0.25rem;
+	padding: 0.1rem 1rem;
 	background-color: var(--surface-variant);
 }
 #papers h6 {

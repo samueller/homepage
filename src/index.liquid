@@ -40,7 +40,35 @@ styles:
 			<p class="title">{{paper.publication.name}}</p>
 			{% endif %}
 			{% endif %}
+			{% if paper.conference %}
+			<p><span class="title">Presented at</span>: <a class="link" href="{{paper.conference.url}}">{{paper.conference.name}}</a></p>
+			{% endif %}
 			<p class="abstract preview">{{paper.abstract}}</p>
+			<p>
+				{% for author in paper.authors %}
+				{% if author.url %}
+				<a class="title link" href="{{author.url}}">{{author.name}}</a>{% else %}
+				<span class="title">{{author.name}}</span>{% endif %}{% unless forloop.last %}, {% endunless %}
+				{% endfor %}
+			</p>
+			{% if paper.supplemental %}
+			<p><a class="link" href="{{paper.supplemental}}">Supplemental</a></p>
+			{% endif %}
+			{% if paper.addendum %}
+			<p><span class="title">Addendum</span>: <a class="link" href="{{paper.addendum.url}}">{{paper.addendum.title}}</a></p>
+			{% endif %}
+			{% if paper.revisions %}
+			<p><span class="title">Revision{% if paper.revisions.size > 1 %}s{% endif %}</span>:
+			{% if paper.revisions.size == 1 %}
+			<a class="link" href="{{paper.revisions[0].url}}">{{paper.revisions[0].date}}</a>
+			{% elsif paper.revisions.size > 1 %}
+			<ol>
+				{% for revision in paper.revisions %}
+				<li><a class="link" href="{{revision.url}}">{{revision.date}}</a></li>
+				{% endfor %}
+			</ol>
+			{% endif %}
+			{% endif %}
 		</li>
 		{% endfor %}
 	</ol>
