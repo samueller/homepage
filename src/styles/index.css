@@ -1,5 +1,6 @@
 #info {
 	float: right;
+	padding: 0 0 1rem 1rem;
 }
 #info img {
 	max-width: 200px;
@@ -11,6 +12,7 @@
 @media (max-width: 640px) {
 	#info {
 		float: none;
+		padding: 0;
 	}
 	#info img {
 		max-width: unset;
@@ -22,9 +24,6 @@
 }
 main.responsive {
 	max-width: 50rem;
-}
-#info {
-	padding: 0 0 1rem 1rem;
 }
 #papers ol {
 	list-style-type: none;
