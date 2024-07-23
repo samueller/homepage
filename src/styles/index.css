@@ -1,6 +1,7 @@
 #info {
 	float: right;
 	padding: 0 0 1rem 1rem;
+	z-index: 1;
 }
 #info img {
 	max-width: 200px;
