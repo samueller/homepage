@@ -40,3 +40,14 @@ main.responsive {
 #papers p.title {
 	margin-top: 0;
 }
+.listing ul {
+	padding-left: 2.5rem;
+}
+.listing > ul {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.listing > ul > li {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
