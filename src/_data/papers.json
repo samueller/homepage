@@ -193,8 +193,8 @@
 		"url": "https://ftp.cs.ucla.edu/pub/stat_ser/r505-reprint.pdf",
 		"abstract": "The problem of individualization is crucial in almost every feld of science. Identifying causes of specifc observed events is likewise essential for accurate decision making as well as explanation. However, such tasks invoke counterfactual relationships, and are therefore indeterminable from population data. For example, the probability of benefting from a treatment concerns an individual having a favorable outcome if treated <em>and</em> an unfavorable outcome if untreated; it cannot be estimated from experimental data, even when conditioned on fine-grained features, because we cannot test both possibilities for an individual. Tian and Pearl provided bounds on this and other probabilities of causation using a combination of experimental and observational data. Those bounds, though tight, can be narrowed signifcantly when structural information is available in the form of a causal model. This added information may provide the power to solve central problems, such as explainable AI, legal responsibility, and personalized medicine, all of which demand counterfactual logic. This paper derives, analyzes, and characterizes these new bounds, and illustrates some of their practical applications.",
 		"conference": {
-			"name": "International Joint Conference on Artificial Intelligence (IJCAI)",
-			"url": "https://www.ijcai.org/"
+			"name": "IJCAI-ECAI 2022, the 31st International Joint Conference on Artificial Intelligence",
+			"url": "https://ijcai-22.org/"
 		},
 		"supplemental": "https://ftp.cs.ucla.edu/pub/stat_ser/r505-sup.pdf",
 		"revisions": [
