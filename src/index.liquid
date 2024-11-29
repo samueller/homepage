@@ -75,7 +75,7 @@ styles:
 </section>
 <section id="teaching" class="listing">
 	<h5>Teaching</h5>
-	<ul>
+	<ol>
 		<li><a class="link" href="https://catalog.registrar.ucla.edu/course/2022/comsci262a?siteYear=2022">Learning and Reasoning with Bayesian Networks</a><ul>
 			<li>Teaching Assistant</li>
 			<li>CS 262A, Winter 2024</li>
@@ -100,11 +100,33 @@ styles:
 			<li>Professor Adnan Darwiche</li>
 			<li>Graduate course</li>
 		</ul></li>
+	</ol>
+</section>
+<section id="articles" class="listing">
+	<h5>Articles</h5>
+	<ol>
+		{% for article in articles %}
+		<li><a class="link" href="{{article.url}}">{{article.title}}</a> ({{article.date}})</li>
+		{% endfor %}
+	</ol>
 </section>
 <section id="talks" class="listing">
 	<h5>Talks/Interviews</h5>
 	<ul>
 		<li><a class="link" href="https://youtu.be/zTJFUaLjxfE?si=6siRXKaDhtbeEK99">Causal AI & Individual Treatment Effects</a> (episode 20 of <a class="link" href="https://causalbanditspodcast.com/">Causal Bandits Podcast</a>)</li>
+	</ul>
+</section>
+<section id="labs" class="listing">
+	<h5>Labs</h5>
+	<ul>
+		<li><a class="link" href="https://www.practicallycausal.com/">Practical Causal Inference (PCI) Lab</a><ul>
+			<li>Web Developer and Co-manager</li>
+			<li>Directors: <a class="link" href="https://www.chadhazlett.com/">Chad Hazlett</a> and <a class="link" href="https://ph.ucla.edu/about/faculty-staff-directory/onyebuchi-arah">Onyebuchi Arah</a></li>
+		</ul></li>
+		<li><a class="link" href="https://bayes.cs.ucla.edu/">Cognitive Systems Laboratory</a><ul>
+			<li>Graduate Student Researcher</li>
+			<li>Director: <a class="link" href="https://bayes.cs.ucla.edu/jp_home.html">Judea Pearl</a></li>
+		</ul></li>
 	</ul>
 </section>
 <section id="cv">

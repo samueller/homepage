@@ -1,0 +1,86 @@
+[
+	{
+		"title": "Personalized Decision Making under Concurrent-Controlled RCT Data",
+		"authors": [
+			{
+				"name": "Scott Mueller",
+				"institution": "University of California, Los Angeles",
+				"url": "https://scott.am"
+			},
+			{
+				"name": "Judea Pearl",
+				"institution": "University of California, Los Angeles",
+				"url": "https://bayes.cs.ucla.edu/jp_home.html"
+			}
+		],
+		"date": "March 2023",
+		"url": "https://causality.cs.ucla.edu/blog/index.php/2023/03/17/personalized-decision-making-under-concurrent-controlled-rct-data/",
+		"publication": {
+			"name": "Causal Analysis in Theory and Practice",
+			"url": "https://causality.cs.ucla.edu/blog/"
+		}
+	},
+	{
+		"title": "Personalized Decision Making",
+		"authors": [
+			{
+				"name": "Scott Mueller",
+				"institution": "University of California, Los Angeles",
+				"url": "https://scott.am"
+			},
+			{
+				"name": "Judea Pearl",
+				"institution": "University of California, Los Angeles",
+				"url": "https://bayes.cs.ucla.edu/jp_home.html"
+			}
+		],
+		"date": "April 2021",
+		"url": "https://causality.cs.ucla.edu/blog/index.php/2021/04/29/personalized-decision-making/",
+		"publication": {
+			"name": "Causal Analysis in Theory and Practice",
+			"url": "https://causality.cs.ucla.edu/blog/"
+		}
+	},
+	{
+		"title": "Which Patients are in Greater Need: A counterfactual analysis with reflections on COVID-19",
+		"authors": [
+			{
+				"name": "Scott Mueller",
+				"institution": "University of California, Los Angeles",
+				"url": "https://scott.am"
+			},
+			{
+				"name": "Judea Pearl",
+				"institution": "University of California, Los Angeles",
+				"url": "https://bayes.cs.ucla.edu/jp_home.html"
+			}
+		],
+		"date": "April 2020",
+		"url": "https://causality.cs.ucla.edu/blog/index.php/2020/04/02/which-patients-are-in-greater-need-a-counterfactual-analysis-with-reflections-on-covid-19/",
+		"publication": {
+			"name": "Causal Analysis in Theory and Practice",
+			"url": "https://causality.cs.ucla.edu/blog/"
+		}
+	},
+	{
+		"title": "Fréchet Inequalities – Visualization, Applications, and History",
+		"authors": [
+			{
+				"name": "Scott Mueller",
+				"institution": "University of California, Los Angeles",
+				"url": "https://scott.am"
+			},
+			{
+				"name": "Judea Pearl",
+				"institution": "University of California, Los Angeles",
+				"url": "https://bayes.cs.ucla.edu/jp_home.html"
+			}
+		],
+		"date": "November 2019",
+		"url": "https://causality.cs.ucla.edu/blog/index.php/2019/11/05/frechet-inequalities/",
+		"publication": {
+			"name": "Causal Analysis in Theory and Practice",
+			"url": "https://causality.cs.ucla.edu/blog/"
+		}
+	}
+]
