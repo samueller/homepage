@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Learning and Reasoning with Bayesian Networks",
+        "course": "CS 262A, Winter 2024",
+        "type": "Graduate course",
+        "url": "https://catalog.registrar.ucla.edu/course/2023/comsci262a?siteYear=2023",
+        "position": "Teaching Assistant",
+        "institution": "UCLA",
+        "head_teacher": "Professor Adnan Darwiche"
+    },
+    {
+        "title": "Learning and Reasoning with Bayesian Networks",
+        "course": "CS 262A, Winter 2023",
+        "type": "Graduate course",
+        "url": "https://catalog.registrar.ucla.edu/course/2022/comsci262a?siteYear=2022",
+        "position": "Teaching Assistant",
+        "institution": "UCLA",
+        "head_teacher": "Professor Adnan Darwiche"
+    },
+    {
+        "title": "Learning and Reasoning with Bayesian Networks",
+        "course": "CS 262A, Winter 2022",
+        "type": "Graduate course",
+        "url": "https://catalog.registrar.ucla.edu/course/2021/comsci262a?siteYear=2021",
+        "position": "Teaching Assistant",
+        "institution": "UCLA",
+        "head_teacher": "Professor Adnan Darwiche"
+    },
+    {
+        "title": "Automated Reasoning: Theory and Applications",
+        "course": "CS 264A, Fall 2021",
+        "type": "Graduate course",
+        "url": "https://catalog.registrar.ucla.edu/course/2021/comsci264a?siteYear=2021",
+        "position": "Teaching Assistant",
+        "institution": "UCLA",
+        "head_teacher": "Professor Adnan Darwiche"
+    }
+]

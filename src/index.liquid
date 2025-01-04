@@ -76,30 +76,14 @@ styles:
 <section id="teaching" class="listing">
 	<h5>Teaching</h5>
 	<ol>
-		<li><a class="link" href="https://catalog.registrar.ucla.edu/course/2022/comsci262a?siteYear=2022">Learning and Reasoning with Bayesian Networks</a><ul>
-			<li>Teaching Assistant</li>
-			<li>CS 262A, Winter 2024</li>
-			<li>Professor Adnan Darwiche</li>
-			<li>Graduate course</li>
+		{% for teaching in teachings %}
+		<li><a class="link" href="{{teaching.url}}">{{teaching.title}}</a><ul>
+			<li>{{teaching.position}}</li>
+			<li>{{teaching.course}}</li>
+			<li>{{teaching.head_teacher}}</li>
+			<li>{{teaching.type}}</li>
 		</ul></li>
-		<li><a class="link" href="https://catalog.registrar.ucla.edu/course/2022/comsci262a?siteYear=2022">Learning and Reasoning with Bayesian Networks</a><ul>
-			<li>Teaching Assistant</li>
-			<li>CS 262A, Winter 2023</li>
-			<li>Professor Adnan Darwiche</li>
-			<li>Graduate course</li>
-		</ul></li>
-		<li><a class="link" href="https://catalog.registrar.ucla.edu/course/2022/comsci262a">Learning and Reasoning with Bayesian Networks</a><ul>
-			<li>Teaching Assistant</li>
-			<li>CS 262A, Winter 2022</li>
-			<li>Professor Adnan Darwiche</li>
-			<li>Graduate course</li>
-		</ul></li>
-		<li><a class="link" href="https://catalog.registrar.ucla.edu/course/2023/comsci264a">Automated Reasoning: Theory and Applications</a><ul>
-			<li>Teaching Assistant</li>
-			<li>CS 264A, Fall 2021</li>
-			<li>Professor Adnan Darwiche</li>
-			<li>Graduate course</li>
-		</ul></li>
+		{% endfor %}
 	</ol>
 </section>
 <section id="articles" class="listing">
