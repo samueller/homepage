@@ -14,6 +14,7 @@ module.exports = function (config) {
     config.addPassthroughCopy('src/favicon.ico')
     config.addPassthroughCopy('src/*.png')
     config.addPassthroughCopy('src/*.pdf')
+    config.addPassthroughCopy('src/*.zip')
 
     return { dir: { input: 'src' } }
 }
