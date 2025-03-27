@@ -43,6 +43,9 @@ styles:
 			{% if paper.conference %}
 			<p><span class="title">Presented at</span>: <a class="link" href="{{paper.conference.url}}">{{paper.conference.name}}</a></p>
 			{% endif %}
+			{% if paper.subtitle %}
+			<p class="subtitle">{{paper.subtitle}}</p>
+			{% endif %}
 			<p class="abstract preview">{{paper.abstract}}</p>
 			<p>
 				{% for author in paper.authors %}

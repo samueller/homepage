@@ -1,62 +1,63 @@
 #info {
-	float: right;
-	padding: 0 0 1rem 1rem;
-	z-index: 1;
+    float: right;
+    padding: 0 0 1rem 1rem;
+    z-index: 1;
 }
 #info img {
-	max-width: 200px;
+    max-width: 200px;
 }
 #info ul {
-	list-style-type: none;
-	margin-top: 1rem;
+    list-style-type: none;
+    margin-top: 1rem;
 }
 @media (max-width: 640px) {
-	#info {
-		float: none;
-		padding: 0;
-	}
-	#info img {
-		max-width: unset;
-		width: 100%;
-	}
-	section:not(:first-child) {
-		margin-top: 1rem;
-	}
+    #info {
+        float: none;
+        padding: 0;
+    }
+    #info img {
+        max-width: unset;
+        width: 100%;
+    }
+    section:not(:first-child) {
+        margin-top: 1rem;
+    }
 }
 main.responsive {
-	max-width: 50rem;
+    max-width: 50rem;
 }
 #papers ol {
-	list-style-type: none;
+    list-style-type: none;
 }
 #papers li {
-	margin: 1rem 0.25rem;
-	padding: 0.1rem 1rem;
-	background-color: var(--surface-variant);
+    margin: 1rem 0.25rem;
+    padding: 0.1rem 1rem;
+    background-color: var(--surface-variant);
 }
 #papers h6 {
-	margin-top: 0.5rem;
+    margin-top: 0.5rem;
 }
-#papers p.title {
-	margin-top: 0;
+#papers p.title,
+#papers p.subtitle {
+    margin-top: 0;
 }
 #articles ol,
 #teaching ol,
 #talks ol,
 #labs ol {
-	list-style-type: disc;
+    list-style-type: disc;
 }
 .listing ol,
 .listing ul {
-	padding-left: 2.5rem;
+    padding-left: 2.5rem;
 }
 .listing > ol,
 .listing > ul {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .listing > ol > li,
 .listing > ul > li {
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }

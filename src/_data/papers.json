@@ -1,207 +1,224 @@
 [
-	{
-		"title": "Causal AI Framework for Unit Selection in Optimizing Electric Vehicle Procurement",
-		"authors": [
-			{
-				"name": "Chi Zhang",
-				"institution": "Toyota Research Institute",
-				"url": "https://www.linkedin.com/in/zccc/"
-			},
-			{
-				"name": "Ang Li",
-				"institution": "Florida State University",
-				"url": "https://www.causalds.org/"
-			},
-			{
-				"name": "Scott Mueller",
-				"institution": "University of California, Los Angeles",
-				"url": "https://scott.am"
-			},
-			{
-				"name": "Rumen Iliev",
-				"institution": "Toyota Research Institute",
-				"url": "https://www.tri.global/about-us/dr-rumen-iliev"
-			}
-		],
-		"date": "February 2024",
-		"url": "https://www.cs.fsu.edu/~angli/papers/r17.pdf",
-		"abstract": "Electric vehicles (EVs) are generally considered more environmentally sustainable than internal combustion engine vehicles (ICEVs). Government and policy makers may want to incentivize multi-vehicle households who, if they purchase a new EV, would use their EV to replace a large portion of their ICEV mileage. Therefore, it is important to analyze how EV procurement affects annual EV mileage for different households. Given that many relevant data, especially experimental data, are often unavailable in the real world, we need causal analysis tools to answer this question. Additionally, our aim is to compare the expected EV mileage of different combinations of vehicles a household owns. Observing multiple combinations in an individual household is impossible since only one combination can exist, making causal inference challenging. In this paper, we construct a causal AI framework utilizing counterfactual reasoning methods to address this issue.",
-		"conference": {
-			"name": "AAAI 2024 Workshop on Sustainable AI",
-			"url": "https://aaai.org/aaai-conference/aaai-24-workshop-program/"
-		}
-	},
-	{
-		"title": "Perspective on ‘Harm’ in Personalized Medicine – An Alternative Perspective",
-		"authors": [
-			{
-				"name": "Scott Mueller",
-				"institution": "University of California, Los Angeles",
-				"url": "https://scott.am"
-			},
-			{
-				"name": "Judea Pearl",
-				"institution": "University of California, Los Angeles",
-				"url": "https://bayes.cs.ucla.edu/jp_home.html"
-			}
-		],
-		"publication": {
-			"name": "American Journal of Epidemiology",
-			"url": "https://academic.oup.com/aje",
-			"doi": ""
-		},
-		"date": "August 2023",
-		"url": "https://ftp.cs.ucla.edu/pub/stat_ser/r530.pdf",
-		"abstract": "This commentary examines an article by Sarvet and Stensrud (SS), in which they discuss the concept of ‘harm’ and its application in medical practice. SS advocate for an intervention-based interpretation of harm, downplaying its counterfactual interpretation. We take issue with this stance. We show that the counterfactual approach is vital for effective decision-making policies and that neglecting it might lead to flawed decisions. In response to SS’s contention that “when the outcome is death and a counterfactual approach is used … more people will die,” we demonstrate how counterfactual reasoning can actually prevent deaths. Additionally, we highlight the advantages of counterfactual thinking in the fields of medical malpractice, legal reasoning, and general diagnoses. Relying solely on intervention-based analyses limits our ability to accurately represent reality and hinders productive discussions about evidence, assumptions, and consensus building."
-	},
-	{
-		"title": "Monotonicity: Detection, Refutation, and Ramification",
-		"authors": [
-			{
-				"name": "Scott Mueller",
-				"institution": "University of California, Los Angeles",
-				"url": "https://scott.am"
-			},
-			{
-				"name": "Judea Pearl",
-				"institution": "University of California, Los Angeles",
-				"url": "https://bayes.cs.ucla.edu/jp_home.html"
-			}
-		],
-		"date": "August 2023",
-		"url": "https://ftp.cs.ucla.edu/pub/stat_ser/r529.pdf",
-		"abstract": "The assumption of monotonicity, namely that outputs cannot decrease when inputs increase, is critical for many reasoning tasks, including unit selection, A/B testing, and quasi-experimental econometrics. It is also vital for identifying Probabilities of Causation, which, in turn, enable the estimation of individual-level behavior. This paper demonstrates how monotonicity can be detected (or refuted) using observational, experimental, or combined data. Using such data, we pinpoint regions where monotonicity is definitively violated, where it unequivocally holds, and where its status remains undetermined. We further explore the consequences of monotonicity violations, especially when a maximum percentage of possible violation is specified. Finally, we illustrate applications for personalized decision-making.",
-		"conference": {
-			"name": "2023 RAND Center for Causal Inference (CCI) Symposium",
-			"url": "https://www.pardeerand.edu/events/2023/08/causal-inference-symposium.html"
-		}
-	},
-	{
-		"title": "Personalized Decision Making -- A Conceptual Introduction",
-		"authors": [
-			{
-				"name": "Scott Mueller",
-				"institution": "University of California, Los Angeles",
-				"url": "https://scott.am"
-			},
-			{
-				"name": "Judea Pearl",
-				"institution": "University of California, Los Angeles",
-				"url": "https://bayes.cs.ucla.edu/jp_home.html"
-			}
-		],
-		"publication": {
-			"name": "Journal of Causal Inference 2023 (Volume 11 Issue 1)",
-			"url": "https://www.degruyter.com/journal/key/jci/11/1/html",
-			"doi": "10.1515/jci-2022-0050"
-		},
-		"date": "March 2023",
-		"url": "https://www.degruyter.com/document/doi/10.1515/jci-2022-0050/html",
-		"abstract": "Personalized decision making targets the behavior of a specific individual, while population-based decision making concerns a subpopulation resembling that individual. This article clarifies the distinction between the two and explains why the former leads to more informed decisions. We further show that by combining experimental and observational studies, we can obtain valuable information about individual behavior and, consequently, improve decisions over those obtained from experimental studies alone. In particular, we show examples where such a combination discriminates between individuals who can benefit from a treatment and those who cannot – information that would not be revealed by experimental studies alone. We outline areas where this method could be of benefit to both policy makers and individuals involved.",
-		"addendum": {
-			"title": "Personalized Decision Making under Concurrent-Controlled RCT Data",
-			"url": "https://causality.cs.ucla.edu/blog/index.php/2023/03/17/personalized-decision-making-under-concurrent-controlled-rct-data/"
-		}
-	},
-	{
-		"title": "ε-Identifiability of Causal Quantities",
-		"authors": [
-			{
-				"name": "Ang Li",
-				"institution": "University of California, Los Angeles",
-				"url": "https://www.causalds.org/"
-			},
-			{
-				"name": "Scott Mueller",
-				"institution": "University of California, Los Angeles",
-				"url": "https://scott.am"
-			},
-			{
-				"name": "Judea Pearl",
-				"institution": "University of California, Los Angeles",
-				"url": "https://bayes.cs.ucla.edu/jp_home.html"
-			}
-		],
-		"date": "January 2023",
-		"url": "https://ftp.cs.ucla.edu/pub/stat_ser/r525.pdf",
-		"abstract": "Identifying the effects of causes and causes of effects is vital in virtually every scientific field. Often, however, the needed probabilities may not be fully identifiable from the data sources available. This paper shows how partial identifiability is still possible for several probabilities of causation. We term this ϵ-identifiability and demonstrate its usefulness in cases where the behavior of certain subpopulations can be restricted to within some narrow bounds. In particular, we show how unidentifiable causal effects and counterfactual probabilities can be narrowly bounded when such allowances are made. Often those allowances are easily measured and reasonably assumed. Finally, ϵ-identifiability is applied to the unit selection problem."
-	},
-	{
-		"title": "Causal Inference in AI Education: A Primer",
-		"authors": [
-			{
-				"name": "Andrew Forney",
-				"institution": "Loyola Marymount University",
-				"url": "https://www.causalds.org/"
-			},
-			{
-				"name": "Scott Mueller",
-				"institution": "University of California, Los Angeles",
-				"url": "https://scott.am"
-			}
-		],
-		"publication": {
-			"name": "Journal of Causal Inference 2022 (Volume 10 Issue 1)",
-			"url": "https://www.degruyter.com/document/doi/10.1515/jci-2021-0048/html",
-			"doi": "10.1515/jci-2021-0048"
-		},
-		"date": "June 2022",
-		"url": "https://ftp.cs.ucla.edu/pub/stat_ser/r509-reprint.pdf",
-		"abstract": "The study of causal inference has seen recent momentum in machine learning and artificial intelligence (AI), particularly in the domains of transfer learning, reinforcement learning, automated diagnostics, and explainability (among others). Yet, despite its increasing application to address many of the boundaries in modern AI, causal topics remain absent in most AI curricula. This work seeks to bridge this gap by providing classroom-ready introductions that integrate into traditional topics in AI, suggests intuitive graphical tools for the application to both new and traditional lessons in probabilistic and causal reasoning, and presents avenues for instructors to impress the merit of climbing the “causal hierarchy” to address problems at the levels of associational, interventional, and counterfactual inference. Finally, this study shares anecdotal instructor experiences, successes, and challenges integrating these lessons at multiple levels of education."
-	},
-	{
-		"title": "Estimating Individualized Causes of Effects by Leveraging Population Data",
-		"authors": [
-			{
-				"name": "Scott Mueller",
-				"institution": "University of California, Los Angeles",
-				"url": "https://scott.am"
-			}
-		],
-		"publication": {
-			"name": "Master's Thesis"
-		},
-		"date": "June 2021",
-		"url": "https://ftp.cs.ucla.edu/pub/stat_ser/r506.pdf",
-		"abstract": "Most analyses in the past three decades concerned estimating effects of causes (EoC). Less emphasis has been placed on identifying causes of effects (CoE), despite their critical importance in science, medicine, public policy, legal reasoning, AI, and epidemiology. For example, personalized medicine concerns the probability of a drug being the cause of survival: resulting in a favorable outcome if taken and unfavorable if avoided. One reason for this imbalance is that tools for estimating the probability of causation from data require counterfactual logic. Bounds on these probabilities are often too loose to be informative and the assumptions necessary for point estimates are often too strong to be defensible. The objective of this thesis is to develop and test techniques for achieving narrower bounds on the probabilities of causation, with minimal assumptions. These more accurate estimates are achieved by incorporating a causal model and covariate data."
-	},
-	{
-		"title": "Causes of effects: Learning individual responses from population data",
-		"authors": [
-			{
-				"name": "Scott Mueller",
-				"institution": "University of California, Los Angeles",
-				"url": "https://scott.am"
-			},
-			{
-				"name": "Ang Li",
-				"institution": "University of California, Los Angeles",
-				"url": "https://www.causalds.org/"
-			},
-			{
-				"name": "Judea Pearl",
-				"institution": "University of California, Los Angeles",
-				"url": "https://bayes.cs.ucla.edu/jp_home.html"
-			}
-		],
-		"publication": {
-			"name": "Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence Main Track",
-			"url": "https://www.ijcai.org/proceedings/2022/376",
-			"doi": "10.24963/ijcai.2022/376"
-		},
-		"date": "May 2022",
-		"url": "https://ftp.cs.ucla.edu/pub/stat_ser/r505-reprint.pdf",
-		"abstract": "The problem of individualization is crucial in almost every feld of science. Identifying causes of specifc observed events is likewise essential for accurate decision making as well as explanation. However, such tasks invoke counterfactual relationships, and are therefore indeterminable from population data. For example, the probability of benefting from a treatment concerns an individual having a favorable outcome if treated <em>and</em> an unfavorable outcome if untreated; it cannot be estimated from experimental data, even when conditioned on fine-grained features, because we cannot test both possibilities for an individual. Tian and Pearl provided bounds on this and other probabilities of causation using a combination of experimental and observational data. Those bounds, though tight, can be narrowed signifcantly when structural information is available in the form of a causal model. This added information may provide the power to solve central problems, such as explainable AI, legal responsibility, and personalized medicine, all of which demand counterfactual logic. This paper derives, analyzes, and characterizes these new bounds, and illustrates some of their practical applications.",
-		"conference": {
-			"name": "IJCAI-ECAI 2022, the 31st International Joint Conference on Artificial Intelligence",
-			"url": "https://ijcai-22.org/"
-		},
-		"supplemental": "https://ftp.cs.ucla.edu/pub/stat_ser/r505-sup.pdf",
-		"revisions": [
-			{
-				"date": "January 2024",
-				"url": "https://ftp.cs.ucla.edu/pub/stat_ser/r505-Alg.pdf"
-			}
-		]
-	}
+    {
+        "title": "Personalized and Situation-Specific Decision Making",
+        "authors": [
+            {
+                "name": "Scott Mueller",
+                "institution": "University of California, Los Angeles",
+                "url": "https://scott.am"
+            }
+        ],
+        "date": "March 2025",
+        "url": "https://scott.am/dissertation.pdf",
+        "abstract": "Personalized and situation-specific decision making is a framework that optimizes both population-based and individual-based utilities by leveraging causal knowledge and counterfactual reasoning. This dissertation addresses the shortfalls of traditional decision strategies, which often overlook crucial individual heterogeneity. It develops novel methods of estimating how specific people or cases would respond under alternative actions or treatments, then uses those estimates to optimize decisions. By combining evidence from both experiments and observational studies, the approach side-steps the fundamental limitation of observing only one outcome per individual. As a result, an individual's probability of benefiting from, or being harmed by, an intervention can be estimated more precisely than previously possible.<br><br>The proposed methods also incorporate domain knowledge through causal models, and culminate in a practical way to handle non-binary ordinal outcomes, substantially expanding the usefulness of counterfactual reasoning. This framework is validated on real-world data from Tennessee's STAR project. Population-level data is distilled into individual-level probabilities, which in turn sharpen both broad policy decisions and personalized choices. I show how the benefits of this framework extend across virtually every industry and discipline.",
+        "publication": {
+            "name": "ProQuest",
+            "url": "https://www.proquest.com/docview/3180533655",
+            "doi": ""
+        },
+        "subtitle": "Ph.D. Dissertation"
+    },
+    {
+        "title": "Causal AI Framework for Unit Selection in Optimizing Electric Vehicle Procurement",
+        "authors": [
+            {
+                "name": "Chi Zhang",
+                "institution": "Toyota Research Institute",
+                "url": "https://www.linkedin.com/in/zccc/"
+            },
+            {
+                "name": "Ang Li",
+                "institution": "Florida State University",
+                "url": "https://www.causalds.org/"
+            },
+            {
+                "name": "Scott Mueller",
+                "institution": "University of California, Los Angeles",
+                "url": "https://scott.am"
+            },
+            {
+                "name": "Rumen Iliev",
+                "institution": "Toyota Research Institute",
+                "url": "https://www.tri.global/about-us/dr-rumen-iliev"
+            }
+        ],
+        "date": "February 2024",
+        "url": "https://www.cs.fsu.edu/~angli/papers/r17.pdf",
+        "abstract": "Electric vehicles (EVs) are generally considered more environmentally sustainable than internal combustion engine vehicles (ICEVs). Government and policy makers may want to incentivize multi-vehicle households who, if they purchase a new EV, would use their EV to replace a large portion of their ICEV mileage. Therefore, it is important to analyze how EV procurement affects annual EV mileage for different households. Given that many relevant data, especially experimental data, are often unavailable in the real world, we need causal analysis tools to answer this question. Additionally, our aim is to compare the expected EV mileage of different combinations of vehicles a household owns. Observing multiple combinations in an individual household is impossible since only one combination can exist, making causal inference challenging. In this paper, we construct a causal AI framework utilizing counterfactual reasoning methods to address this issue.",
+        "conference": {
+            "name": "AAAI 2024 Workshop on Sustainable AI",
+            "url": "https://aaai.org/aaai-conference/aaai-24-workshop-program/"
+        }
+    },
+    {
+        "title": "Perspective on ‘Harm’ in Personalized Medicine – An Alternative Perspective",
+        "authors": [
+            {
+                "name": "Scott Mueller",
+                "institution": "University of California, Los Angeles",
+                "url": "https://scott.am"
+            },
+            {
+                "name": "Judea Pearl",
+                "institution": "University of California, Los Angeles",
+                "url": "https://bayes.cs.ucla.edu/jp_home.html"
+            }
+        ],
+        "publication": {
+            "name": "American Journal of Epidemiology",
+            "url": "https://academic.oup.com/aje",
+            "doi": ""
+        },
+        "date": "August 2023",
+        "url": "https://ftp.cs.ucla.edu/pub/stat_ser/r530.pdf",
+        "abstract": "This commentary examines an article by Sarvet and Stensrud (SS), in which they discuss the concept of ‘harm’ and its application in medical practice. SS advocate for an intervention-based interpretation of harm, downplaying its counterfactual interpretation. We take issue with this stance. We show that the counterfactual approach is vital for effective decision-making policies and that neglecting it might lead to flawed decisions. In response to SS’s contention that “when the outcome is death and a counterfactual approach is used … more people will die,” we demonstrate how counterfactual reasoning can actually prevent deaths. Additionally, we highlight the advantages of counterfactual thinking in the fields of medical malpractice, legal reasoning, and general diagnoses. Relying solely on intervention-based analyses limits our ability to accurately represent reality and hinders productive discussions about evidence, assumptions, and consensus building."
+    },
+    {
+        "title": "Monotonicity: Detection, Refutation, and Ramification",
+        "authors": [
+            {
+                "name": "Scott Mueller",
+                "institution": "University of California, Los Angeles",
+                "url": "https://scott.am"
+            },
+            {
+                "name": "Judea Pearl",
+                "institution": "University of California, Los Angeles",
+                "url": "https://bayes.cs.ucla.edu/jp_home.html"
+            }
+        ],
+        "date": "August 2023",
+        "url": "https://ftp.cs.ucla.edu/pub/stat_ser/r529.pdf",
+        "abstract": "The assumption of monotonicity, namely that outputs cannot decrease when inputs increase, is critical for many reasoning tasks, including unit selection, A/B testing, and quasi-experimental econometrics. It is also vital for identifying Probabilities of Causation, which, in turn, enable the estimation of individual-level behavior. This paper demonstrates how monotonicity can be detected (or refuted) using observational, experimental, or combined data. Using such data, we pinpoint regions where monotonicity is definitively violated, where it unequivocally holds, and where its status remains undetermined. We further explore the consequences of monotonicity violations, especially when a maximum percentage of possible violation is specified. Finally, we illustrate applications for personalized decision-making.",
+        "conference": {
+            "name": "2023 RAND Center for Causal Inference (CCI) Symposium",
+            "url": "https://www.pardeerand.edu/events/2023/08/causal-inference-symposium.html"
+        }
+    },
+    {
+        "title": "Personalized Decision Making -- A Conceptual Introduction",
+        "authors": [
+            {
+                "name": "Scott Mueller",
+                "institution": "University of California, Los Angeles",
+                "url": "https://scott.am"
+            },
+            {
+                "name": "Judea Pearl",
+                "institution": "University of California, Los Angeles",
+                "url": "https://bayes.cs.ucla.edu/jp_home.html"
+            }
+        ],
+        "publication": {
+            "name": "Journal of Causal Inference 2023 (Volume 11 Issue 1)",
+            "url": "https://www.degruyter.com/journal/key/jci/11/1/html",
+            "doi": "10.1515/jci-2022-0050"
+        },
+        "date": "March 2023",
+        "url": "https://www.degruyter.com/document/doi/10.1515/jci-2022-0050/html",
+        "abstract": "Personalized decision making targets the behavior of a specific individual, while population-based decision making concerns a subpopulation resembling that individual. This article clarifies the distinction between the two and explains why the former leads to more informed decisions. We further show that by combining experimental and observational studies, we can obtain valuable information about individual behavior and, consequently, improve decisions over those obtained from experimental studies alone. In particular, we show examples where such a combination discriminates between individuals who can benefit from a treatment and those who cannot – information that would not be revealed by experimental studies alone. We outline areas where this method could be of benefit to both policy makers and individuals involved.",
+        "addendum": {
+            "title": "Personalized Decision Making under Concurrent-Controlled RCT Data",
+            "url": "https://causality.cs.ucla.edu/blog/index.php/2023/03/17/personalized-decision-making-under-concurrent-controlled-rct-data/"
+        }
+    },
+    {
+        "title": "ε-Identifiability of Causal Quantities",
+        "authors": [
+            {
+                "name": "Ang Li",
+                "institution": "University of California, Los Angeles",
+                "url": "https://www.causalds.org/"
+            },
+            {
+                "name": "Scott Mueller",
+                "institution": "University of California, Los Angeles",
+                "url": "https://scott.am"
+            },
+            {
+                "name": "Judea Pearl",
+                "institution": "University of California, Los Angeles",
+                "url": "https://bayes.cs.ucla.edu/jp_home.html"
+            }
+        ],
+        "date": "January 2023",
+        "url": "https://ftp.cs.ucla.edu/pub/stat_ser/r525.pdf",
+        "abstract": "Identifying the effects of causes and causes of effects is vital in virtually every scientific field. Often, however, the needed probabilities may not be fully identifiable from the data sources available. This paper shows how partial identifiability is still possible for several probabilities of causation. We term this ϵ-identifiability and demonstrate its usefulness in cases where the behavior of certain subpopulations can be restricted to within some narrow bounds. In particular, we show how unidentifiable causal effects and counterfactual probabilities can be narrowly bounded when such allowances are made. Often those allowances are easily measured and reasonably assumed. Finally, ϵ-identifiability is applied to the unit selection problem."
+    },
+    {
+        "title": "Causal Inference in AI Education: A Primer",
+        "authors": [
+            {
+                "name": "Andrew Forney",
+                "institution": "Loyola Marymount University",
+                "url": "https://www.causalds.org/"
+            },
+            {
+                "name": "Scott Mueller",
+                "institution": "University of California, Los Angeles",
+                "url": "https://scott.am"
+            }
+        ],
+        "publication": {
+            "name": "Journal of Causal Inference 2022 (Volume 10 Issue 1)",
+            "url": "https://www.degruyter.com/document/doi/10.1515/jci-2021-0048/html",
+            "doi": "10.1515/jci-2021-0048"
+        },
+        "date": "June 2022",
+        "url": "https://ftp.cs.ucla.edu/pub/stat_ser/r509-reprint.pdf",
+        "abstract": "The study of causal inference has seen recent momentum in machine learning and artificial intelligence (AI), particularly in the domains of transfer learning, reinforcement learning, automated diagnostics, and explainability (among others). Yet, despite its increasing application to address many of the boundaries in modern AI, causal topics remain absent in most AI curricula. This work seeks to bridge this gap by providing classroom-ready introductions that integrate into traditional topics in AI, suggests intuitive graphical tools for the application to both new and traditional lessons in probabilistic and causal reasoning, and presents avenues for instructors to impress the merit of climbing the “causal hierarchy” to address problems at the levels of associational, interventional, and counterfactual inference. Finally, this study shares anecdotal instructor experiences, successes, and challenges integrating these lessons at multiple levels of education."
+    },
+    {
+        "title": "Estimating Individualized Causes of Effects by Leveraging Population Data",
+        "authors": [
+            {
+                "name": "Scott Mueller",
+                "institution": "University of California, Los Angeles",
+                "url": "https://scott.am"
+            }
+        ],
+        "subtitle": "Master's Thesis",
+        "date": "June 2021",
+        "url": "https://ftp.cs.ucla.edu/pub/stat_ser/r506.pdf",
+        "abstract": "Most analyses in the past three decades concerned estimating effects of causes (EoC). Less emphasis has been placed on identifying causes of effects (CoE), despite their critical importance in science, medicine, public policy, legal reasoning, AI, and epidemiology. For example, personalized medicine concerns the probability of a drug being the cause of survival: resulting in a favorable outcome if taken and unfavorable if avoided. One reason for this imbalance is that tools for estimating the probability of causation from data require counterfactual logic. Bounds on these probabilities are often too loose to be informative and the assumptions necessary for point estimates are often too strong to be defensible. The objective of this thesis is to develop and test techniques for achieving narrower bounds on the probabilities of causation, with minimal assumptions. These more accurate estimates are achieved by incorporating a causal model and covariate data."
+    },
+    {
+        "title": "Causes of effects: Learning individual responses from population data",
+        "authors": [
+            {
+                "name": "Scott Mueller",
+                "institution": "University of California, Los Angeles",
+                "url": "https://scott.am"
+            },
+            {
+                "name": "Ang Li",
+                "institution": "University of California, Los Angeles",
+                "url": "https://www.causalds.org/"
+            },
+            {
+                "name": "Judea Pearl",
+                "institution": "University of California, Los Angeles",
+                "url": "https://bayes.cs.ucla.edu/jp_home.html"
+            }
+        ],
+        "publication": {
+            "name": "Proceedings of the Thirty-First International Joint Conference on Artificial Intelligence Main Track",
+            "url": "https://www.ijcai.org/proceedings/2022/376",
+            "doi": "10.24963/ijcai.2022/376"
+        },
+        "date": "May 2022",
+        "url": "https://ftp.cs.ucla.edu/pub/stat_ser/r505-reprint.pdf",
+        "abstract": "The problem of individualization is crucial in almost every feld of science. Identifying causes of specifc observed events is likewise essential for accurate decision making as well as explanation. However, such tasks invoke counterfactual relationships, and are therefore indeterminable from population data. For example, the probability of benefting from a treatment concerns an individual having a favorable outcome if treated <em>and</em> an unfavorable outcome if untreated; it cannot be estimated from experimental data, even when conditioned on fine-grained features, because we cannot test both possibilities for an individual. Tian and Pearl provided bounds on this and other probabilities of causation using a combination of experimental and observational data. Those bounds, though tight, can be narrowed signifcantly when structural information is available in the form of a causal model. This added information may provide the power to solve central problems, such as explainable AI, legal responsibility, and personalized medicine, all of which demand counterfactual logic. This paper derives, analyzes, and characterizes these new bounds, and illustrates some of their practical applications.",
+        "conference": {
+            "name": "IJCAI-ECAI 2022, the 31st International Joint Conference on Artificial Intelligence",
+            "url": "https://ijcai-22.org/"
+        },
+        "supplemental": "https://ftp.cs.ucla.edu/pub/stat_ser/r505-sup.pdf",
+        "revisions": [
+            {
+                "date": "January 2024",
+                "url": "https://ftp.cs.ucla.edu/pub/stat_ser/r505-Alg.pdf"
+            }
+        ]
+    }
 ]

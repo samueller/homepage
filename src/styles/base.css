@@ -97,6 +97,9 @@
 .title {
     font-weight: bold;
 }
+.subtitle {
+    font-style: italic;
+}
 em {
     vertical-align: unset;
 }
